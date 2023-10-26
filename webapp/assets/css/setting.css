@@ -1,10 +1,53 @@
 @charset "UTF-8";
 
+#container{
+	width:1250px;
+	height: 700px;
+	margin: auto;
+}
 
-/*box-sizing: border-box;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;*/
+#settingsMenu{
+	float: left;
+	margin-right: 30px;
+}
+
+#settingsMenu li{
+	width: 204px;
+	height: 42px;
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-color: rgb(192, 192, 192);
+	border-style: solid;
+	text-align: left;
+	line-height: 42px;
+}
+
+#settingsMenu li a{
+	padding: 10px;
+	font-size: 14px;
+}
+
+#settingsMenu li .setting_sub{
+	padding-left: 30px;
+	text-decoration: none;
+	color: #212529;
+}
+
+#settingsMenu .last_li{
+	border-bottom: 1px;
+	border-color: rgb(192, 192, 192);
+	border-style: solid;
+}
+
+
+.selected{
+	background-color: rgb(230, 126, 34);
+	color: white;
+}
+
+
+
+
 
 
