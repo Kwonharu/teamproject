@@ -29,6 +29,12 @@
 	padding: 50px;
 }
 
+#loginForm a img{
+	width: 42px;
+	height: 42px;
+	float: left;
+}
+
 #idLoginMessage{
 	text-align: center;
 	margin-bottom: 20px;

@@ -20,14 +20,16 @@
 
 	<form action="/login" id="loginForm">
 	
-		<div id="">
-			<a href="" class="social formEliments" id="naver"><img alt="" src="">네이버로 로그인</a>
-			<a href="" class="social formEliments" id="google"><img alt="" src="">구글로 로그인</a>
+		<div class="">
+			<a href="" class="social formEliments" id="naver"><img alt="" src="/teamproject/assets/images/naver-icon-file.png">네이버로 로그인</a>
+		</div>
+		<div class="">
+			<a href="" class="social formEliments" id="google"><img alt="" src="/teamproject/assets/images/google_logo.png">구글로 로그인</a>
 		</div>
 		
 		<div id="idLoginMessage">아이디로 로그인</div>
 		
-		<div id="">
+		<div class="">
 			<input type="text" name="id" id="id" class="rm formEliments" placeholder="아이디">
 		
 			<input type="password" name="password" id="password" class="rm formEliments" placeholder="비밀번호">

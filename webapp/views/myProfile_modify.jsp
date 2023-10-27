@@ -3,10 +3,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>내 정보</title>
+<title>내 정보 수정</title>
 <link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/setting.css" rel="stylesheet" type="text/css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -27,46 +27,52 @@
 	</ul>
 	
 	
-	<div id="profile">
+	<form action="" id="profile">
 	
 		<div class="firstElement">
-			<h1>내 정보</h1>
+			<h1>내 정보 수정</h1>
 			<div>#회원코드</div>
 		</div>
 		
 		<div class="imageArea">
 			<div class="settingLabel">프로필 이미지</div>
-			<img class="profileImg" alt="" src="">
+			<img class="profileImg" alt="" src="/teamproject/assets/images/adele.png">
+			<input type="file" name="profile_img">
 		</div>
 		
 		<div>
 			<div class="settingLabel">닉네임</div>
-			<div>-</div>
+			<input type="text" name="name" value="" maxlength="10">
 		</div>
 		
 		<div>
 			<div class="settingLabel">생일</div>
-			<div>-</div>
+			<input type="date" name="date" value="">
 		</div>
 		
-		<div>
+		<div class="genderSelect">
 			<div class="settingLabel">성별</div>
-			<div>-</div>
+			<input type="radio" name="gender" value="male">남
+			<input type="radio" name="gender" value="female">여
 		</div>
 		
 		<div>
 			<div class="settingLabel">동네</div>
-			<div>-</div>
+			<input id="address" type="text" name="address" readonly>
+			<button type="button" id="searchAddress">주소 찾기</button>
 		</div>
+
 		
 		<div class="noBorder">
-			<a class="button" href="">내 정보 수정</a>
+			<button type="submit" class="button">수정 완료</button>
 		</div>
-				
-	</div>
-
-
+		
+	</form>	
+	
 </div>
+
+	
+
 
 
 </body>

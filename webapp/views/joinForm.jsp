@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>수앗!</title>
+<title>회원가입</title>
 <link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/login_join.css" rel="stylesheet" type="text/css">
 
