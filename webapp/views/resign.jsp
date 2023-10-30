@@ -41,13 +41,13 @@
 				<span class="lastSpan">회원탈퇴를 위해 비밀번호를 입력해주세요.</span>
 			</div>
 		</div>
-		<div class="noBottomBorder">
-			<div class="settingLabel selectedBold">아이디</div>
+		<div class="noBottomStyle">
+			<div class="resignLabel selectedBold">아이디</div>
 			<div>test1234</div>
 			<input type="hidden" name="id" value="아이디 불러오기">
 		</div>	
 		<div>
-			<div class="settingLabel selectedBold">비밀번호</div>
+			<div class="resignLabel selectedBold">비밀번호</div>
 			<input type="text" name="password">
 		</div>
 

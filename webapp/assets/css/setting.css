@@ -551,8 +551,15 @@ input::-webkit-inner-spin-button {
 	font-size: 15px;
 }
 
-#profile > .noBottomBorder{
+#profile > .noBottomStyle{
 	border: none;
+	padding-bottom: 0px;
+}
+
+#profile .resignLabel{
+	width: 80px;
+	padding-right: 16px;
+	text-align: right;
 }
 
 
