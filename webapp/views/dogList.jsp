@@ -7,10 +7,10 @@
 <link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/setting.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/slick.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="${pageContext.request.contextPath}/assets/js/slick.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/common.js"></script>
 
 </head>
 <body>
@@ -19,14 +19,14 @@
 <div class="pageContainer">
 
 	<ul id="settingsMenu">
-		<li><a href="">내 정보</a></li>
+		<li class=""><a href="">내 정보</a></li>
 		<li class="selected"><a href="">강아지</a></li>
-		<li class="selectedBold"><a class="setting_sub" href="">강아지 카드</a></li>
-		<li class="noTopBorder"><a class="setting_sub" href="">강아지 등록</a></li>
+		<li class="settingSubLi selectedBold"><a class="setting_sub" href="">강아지 카드</a></li>
+		<li class="settingSubLi noTopBorder"><a class="setting_sub" href="">강아지 등록</a></li>
 		<li><a href="">패밀리</a></li>
-		<li><a class="setting_sub" href="">패밀리 목록</a></li>
-		<li class="noTopBorder"><a class="setting_sub" href="">패밀리 신청 관리</a></li>
-		<li class="noTopBorder"><a class="setting_sub" href="">패밀리 검색</a></li>
+		<li class="settingSubLi"><a class="setting_sub" href="">패밀리 목록</a></li>
+		<li class="settingSubLi noTopBorder"><a class="setting_sub" href="">패밀리 신청 관리</a></li>
+		<li class="settingSubLi noTopBorder"><a class="setting_sub" href="">패밀리 추가</a></li>
 		<li class="last_li"><a href="">회원탈퇴</a></li>
 	</ul>
 	
@@ -53,17 +53,19 @@
 				<div class="dogCard">
 					
 					<img class="profileImg" alt="" src="/teamproject/assets/images/liltriber.jpg">
+					<img class="certifyMark" src="/teamproject/assets/images/bluemark.png">
 					
 					<h3>강아지 카드</h3>
-					<div>이름: </div>
+					<div>이름: 릴파</div>
 					<div>품종: </div>
-					<div class="dogCardEliment">생일: </div>
+					<div class="dogCardEliment">생일: 1972.11.21</div>
 					<div class="dogCardEliment">성별: </div>
 					<div class="dogCardEliment">체중: </div>
 					<div class="dogCardEliment">중성화: </div>
-					<div class="personal">성격: 천 구 백 칠 십이 년 십 일 월 이 십 이 일 김두한은 오렌지병으로 쓰려졌다.</div>
+					<div class="personal">성격: 천 구 백 칠 십이 년 십 일 월 이 십 이 일 김두한</div>
 					<div class="lastElement">보호자: </div>
 					
+					<a class="iconPencil" href=""><i class="fa-regular fa-pen-to-square"></i></a>
 				</div>
 				
 				<div class="dogCard">
@@ -71,7 +73,7 @@
 					<img class="profileImg" alt="" src="/teamproject/assets/images/liltriber.jpg">
 					
 					<h3>강아지 카드</h3>
-					<div>이름: </div>
+					<div>이름: 띨파</div>
 					<div>품종: </div>
 					<div class="dogCardEliment">생일: </div>
 					<div class="dogCardEliment">성별: </div>
@@ -80,6 +82,7 @@
 					<div class="personal">성격: bbbb</div>
 					<div class="lastElement">보호자: </div>
 					
+					<a class="iconPencil" href=""><i class="fa-regular fa-pen-to-square"></i></a>
 				</div>
 				
 				<div class="dogCard">
@@ -87,7 +90,7 @@
 					<img class="profileImg" alt="" src="/teamproject/assets/images/liltriber.jpg">
 					
 					<h3>강아지 카드</h3>
-					<div>이름: </div>
+					<div>이름: 뇨파</div>
 					<div>품종: </div>
 					<div class="dogCardEliment">생일: </div>
 					<div class="dogCardEliment">성별: </div>
@@ -96,6 +99,7 @@
 					<div class="personal">성격: qqqq</div>
 					<div class="lastElement">보호자: </div>
 					
+					<a class="iconPencil" href=""><i class="fa-regular fa-pen-to-square"></i></a>
 				</div>
 				
 				<div class="dogCard">
@@ -103,7 +107,7 @@
 					<img class="profileImg" alt="" src="/teamproject/assets/images/liltriber.jpg">
 					
 					<h3>강아지 카드</h3>
-					<div>이름: </div>
+					<div>이름: 이제 쓸 이름이 없다</div>
 					<div>품종: </div>
 					<div class="dogCardEliment">생일: </div>
 					<div class="dogCardEliment">성별: </div>
@@ -112,6 +116,7 @@
 					<div class="personal">성격: asdf</div>
 					<div class="lastElement">보호자: </div>
 					
+					<a class="iconPencil" href=""><i class="fa-regular fa-pen-to-square"></i></a>
 				</div>
 	
 	

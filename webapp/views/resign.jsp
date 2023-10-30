@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>내 정보</title>
+<title>탈퇴</title>
 <link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/setting.css" rel="stylesheet" type="text/css">
 
@@ -15,7 +15,7 @@
 <div class="pageContainer">
 
 	<ul id="settingsMenu">
-		<li class="selected"><a href="">내 정보</a></li>
+		<li class=""><a href="">내 정보</a></li>
 		<li class=""><a href="">강아지</a></li>
 		<li class="settingSubLi"><a class="setting_sub" href="">강아지 카드</a></li>
 		<li class="settingSubLi noTopBorder"><a class="setting_sub" href="">강아지 등록</a></li>
@@ -23,47 +23,39 @@
 		<li class="settingSubLi"><a class="setting_sub" href="">패밀리 목록</a></li>
 		<li class="settingSubLi noTopBorder"><a class="setting_sub" href="">패밀리 신청 관리</a></li>
 		<li class="settingSubLi noTopBorder"><a class="setting_sub" href="">패밀리 추가</a></li>
-		<li class="last_li"><a href="">회원탈퇴</a></li>
+		<li class="last_li selected"><a href="">회원탈퇴</a></li>
 	</ul>
 	
 	
-	<div id="profile">
+	<form action="" id="profile">
 	
 		<div class="firstElement">
-			<h1>내 정보</h1>
-			<div>#회원코드</div>
+			<h1>회원탈퇴</h1>
+			<div>#12345</div>
 		</div>
 		
-		<div class="imageArea">
-			<div class="settingLabel">프로필 이미지</div>
-			<img class="profileImg" alt="" src="">
+		<div class="warningBox">
+			<div class="warning">
+				<span>* 사용 중인 아이디는 탈퇴 후 재사용 및 복구가 불가능합니다.</span>
+				<span>* 패밀리가 등록되어 있을 경우 탈퇴가 불가능합니다.</span>
+				<span class="lastSpan">회원탈퇴를 위해 비밀번호를 입력해주세요.</span>
+			</div>
 		</div>
-		
+		<div class="noBottomBorder">
+			<div class="settingLabel selectedBold">아이디</div>
+			<div>test1234</div>
+			<input type="hidden" name="id" value="아이디 불러오기">
+		</div>	
 		<div>
-			<div class="settingLabel">닉네임</div>
-			<div>아델</div>
+			<div class="settingLabel selectedBold">비밀번호</div>
+			<input type="text" name="password">
 		</div>
-		
-		<div>
-			<div class="settingLabel">생일</div>
-			<div>-</div>
-		</div>
-		
-		<div>
-			<div class="settingLabel">성별</div>
-			<div>-</div>
-		</div>
-		
-		<div>
-			<div class="settingLabel">동네</div>
-			<div>-</div>
-		</div>
-		
+
 		<div class="noBorder">
-			<a class="button" href="">내 정보 수정</a>
+			<button type="submit" class="button">회원탈퇴</button>
 		</div>
 				
-	</div>
+	</form>
 
 
 </div>
