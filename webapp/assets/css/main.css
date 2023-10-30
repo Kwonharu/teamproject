@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* 메인 */
+body{
+	background-color:#e0e0e0;
+}
+
+#pageContainer{
+	width:1250px;
+	margin: auto;
+	background: grey;
+	min-height: 100vh;
+	position: relative;
+	padding: 0;
+}	 
+
+
+
