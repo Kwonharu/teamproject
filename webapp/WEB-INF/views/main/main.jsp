@@ -4,13 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Main</title>
-<link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/global/reset.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/setting/main.css" rel="stylesheet" type="text/css">
 
 
 </head>
 <body class="bg-secondary-subtle">
-<jsp:include page="includes/header.jsp"></jsp:include>
+<jsp:include page="../includes/header.jsp"></jsp:include>
 
 <div id="pageContainer">
 
@@ -160,7 +160,7 @@
 							욕심 많고 거짓뿐인 소녀의 꿈은 다 그런 법이죠
 							모른 체해줘요 				
 						</div>
-						<img src="/teamproject/assets/images/Yoshi.jpg">
+						<img src="/teamproject/assets/images/Yoshi.jpg"  alt="/teamproject/assets/images/logo.png">
 					</div>
 				</div>
 			</div>
@@ -195,7 +195,7 @@
 							질투 많고 집착뿐인 소녀의 꿈을 다 이룰 거에요
 							정말로 모르죠?
 						</div>
-						<img src="/teamproject/assets/images/Yoshi.jpg">
+						<img src="/teamproject/assets/images/Yoshi.jpg" alt="/teamproject/assets/images/logo.png">
 					</div>
 				</div>
 			</div>
@@ -207,23 +207,23 @@
 			<div class="contentHalf">
 				<div class="cateTilte">맴버수</div>
 				<div class="clubProfile">
-					<img alt="" src="/teamproject/assets/images/adele.png">
+					<img alt="" src="/teamproject/assets/images/dog.jpg">
 					<div class="clubBox">
-						<div class="clubName">아델 동아리</div>
+						<div class="clubName">강아지 동아리</div>
 						<div class="clubContent">맴버 21574</div>
 					</div>
 				</div>
 				<div class="clubProfile">
-					<img alt="" src="/teamproject/assets/images/adele.png">
+					<img alt="" src="/teamproject/assets/images/dog.jpg">
 					<div class="clubBox">
-						<div class="clubName">아델 동아리</div>
+						<div class="clubName">강아지 동아리</div>
 						<div class="clubContent">맴버 21574</div>
 					</div>
 				</div>
 				<div class="clubProfile noMargin">
-					<img alt="" src="/teamproject/assets/images/adele.png">
+					<img alt="" src="/teamproject/assets/images/dog.jpg">
 					<div class="clubBox">
-						<div class="clubName">아델 동아리</div>
+						<div class="clubName">강아지 동아리</div>
 						<div class="clubContent">맴버 21574</div>
 					</div>
 				</div>
@@ -233,23 +233,23 @@
 			<div class="contentHalf noBorder">
 				<div class="cateTilte">모임수</div>
 				<div class="clubProfile">
-					<img alt="" src="/teamproject/assets/images/adele.png">
+					<img alt="" src="/teamproject/assets/images/dog.jpg">
 					<div class="clubBox">
-						<div class="clubName">아델 동아리</div>
+						<div class="clubName">강아지 동아리</div>
 						<div class="clubContent">모임 2134</div>
 					</div>
 				</div>
 				<div class="clubProfile">
-					<img alt="" src="/teamproject/assets/images/adele.png">
+					<img alt="" src="/teamproject/assets/images/dog.jpg">
 					<div class="clubBox">
-						<div class="clubName">아델 동아리</div>
+						<div class="clubName">강아지 동아리</div>
 						<div class="clubContent">모임 2134</div>
 					</div>
 				</div>
 				<div class="clubProfile noMargin">
-					<img alt="" src="/teamproject/assets/images/adele.png">
+					<img alt="" src="/teamproject/assets/images/dog.jpg">
 					<div class="clubBox">
-						<div class="clubName">아델 동아리</div>
+						<div class="clubName">강아지 동아리</div>
 						<div class="clubContent">모임 2134</div>
 					</div>
 				</div>				

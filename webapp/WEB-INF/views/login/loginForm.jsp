@@ -4,13 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <title>로그인 폼</title>
-<link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/login_join.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/global/reset.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/setting/login_join.css" rel="stylesheet" type="text/css">
 
 
 </head>
 <body>
-<jsp:include page="includes/header.jsp"></jsp:include>
+<jsp:include page="../includes/header.jsp"></jsp:include>
 	
 <div id="loginContainer">
 	

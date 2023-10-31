@@ -4,13 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <title>내 정보 수정</title>
-<link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/setting.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/global/reset.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/setting/setting.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 <body>
-<jsp:include page="includes/header.jsp"></jsp:include>
+<jsp:include page="../includes/header.jsp"></jsp:include>
 
 <div class="pageContainer">
 
