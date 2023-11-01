@@ -6,8 +6,8 @@
 <title>Insert title here</title>
 <!-- 부트스트랩 cdn -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-<link href="${pageContext.request.contextPath}/assets/css/header.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/index.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/global/header.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/global/index.css" rel="stylesheet" type="text/css">
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/109d7bd609.js" crossorigin="anonymous"></script>
